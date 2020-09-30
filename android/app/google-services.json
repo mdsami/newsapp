@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "487709952462",
+    "firebase_url": "https://my-new-malaysia-e9de7.firebaseio.com",
+    "project_id": "my-new-malaysia-e9de7",
+    "storage_bucket": "my-new-malaysia-e9de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487709952462:android:727f15be573fdd4455839f",
+        "android_client_info": {
+          "package_name": "com.debuggerlab.emenemapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487709952462-q2gpo00d58d343m62nou1ur0njvbh15s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsyDXegoEStENc_sT3_yh7Pb4QzvY3to8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487709952462-q2gpo00d58d343m62nou1ur0njvbh15s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487709952462-qifhm11v77v8vts6h4009kgoopga0v5g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.debuggerlab.emenemnews"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
