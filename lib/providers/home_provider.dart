@@ -15,13 +15,15 @@ class HomeProvider with ChangeNotifier {
     setLoading(true);
     Api.getNews(Api.popular).then((popular) {
       setTop(popular);
-      Api.getNews(Api.breaking).then((newReleases) {
-        setRecent(newReleases);
+
+      Api.getNews(Api.trends).then((trend) {
+        setTrends(trend);
+
       }).catchError((e) {
         throw (e);
       });
-      Api.getNews(Api.trends).then((trend) {
-        setTrends(trend);
+      Api.getNews(Api.breaking).then((newReleases) {
+        setRecent(newReleases);
         setLoading(false);
       }).catchError((e) {
         throw (e);
