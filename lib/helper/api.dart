@@ -36,4 +36,13 @@ class Api {
     }
     return true;
   }
+  Future GetVideo()async{
+    var url = baseURL + "api.php?get=videos";
+    var res = await http.get(url);
+    if(res.statusCode == 200){
+      return res.body;
+    }else{
+      throw "error";
+    }
+  }
 }
