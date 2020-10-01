@@ -35,13 +35,14 @@ class _FavoritesState extends State<Favorites> {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "Favorites",
+            "Videos",
           ),
         ),
         body: myData == null
             ? Center(child: CircularProgressIndicator())
             : ListView.builder(
             shrinkWrap: true,
+
             itemCount: 3,
             itemBuilder: (context, index) {
               return Column(
@@ -52,12 +53,15 @@ class _FavoritesState extends State<Favorites> {
                       MaterialPageRoute(builder: (context) => Player(myData['feed']['entry'][index]['url'].toString().split("=")[1]));
                       Navigator.push(context, route);
                     },
+
                     child: FadeInImage.assetNetwork(
                       placeholder: "assets/images/logo.png",
+
                       image:
                       "https://img.youtube.com/vi/${myData['feed']['entry'][index]['url'].toString().split("=")[1]}/0.jpg",
-                      width: 350,
-                      height: 200,
+
+                      width: 600,
+                      height: 300,
                     ),
                   )
                 ],

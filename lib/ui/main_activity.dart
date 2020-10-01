@@ -60,7 +60,8 @@ class _HomeState extends State<MainActivity> {
 
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.dashboard,
+                Icons.playlist_play,
+
               ),
               title: SizedBox(),
             ),

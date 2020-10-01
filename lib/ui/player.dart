@@ -65,6 +65,7 @@ class _PlayerState extends State<Player> {
       player: YoutubePlayer(
         controller: _controller,
         showVideoProgressIndicator: true,
+
         progressIndicatorColor: Colors.blueAccent,
         topActions: <Widget>[
           const SizedBox(width: 8.0),
