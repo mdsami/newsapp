@@ -52,7 +52,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/Users/mdsami/Desktop/classic_flutter_news/classic_news.jks')
+            storeFile file('D:/ANdroid-Flutter/MyNewsMalaysia/classic_news.jks')
             storePassword '12345678'
             keyPassword '12345678'
             keyAlias 'classic_news'

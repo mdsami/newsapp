@@ -54,8 +54,11 @@ class _FavoritesState extends State<Favorites> {
                       Navigator.push(context, route);
                     },
 
+
                     child: FadeInImage.assetNetwork(
                       placeholder: "assets/images/logo.png",
+
+
 
                       image:
                       "https://img.youtube.com/vi/${myData['feed']['entry'][index]['url'].toString().split("=")[1]}/0.jpg",
