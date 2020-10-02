@@ -43,7 +43,7 @@ class _FavoritesState extends State<Favorites> {
             : ListView.builder(
             shrinkWrap: true,
 
-            itemCount: 3,
+            itemCount: myData['feed']['entry'].length,
             itemBuilder: (context, index) {
               return Column(
                 children: [
